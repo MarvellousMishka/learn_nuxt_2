@@ -18,3 +18,8 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+
+TUTORIAL:
+
+https://www.tarcgn.de/tutorial-erstellung-einer-nuxt-js-application-zur-darstellung-aller-star-wars-filme-teil-1/
