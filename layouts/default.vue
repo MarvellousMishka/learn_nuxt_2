@@ -15,9 +15,20 @@ export default {
   },
 }
 </script>
-<style>
+<style lang="SCSS">
+@import '~assets/scss/bootstrap-variables.scss';
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
+body {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#header-logo {
+  max-height: 2rem;
+  margin-right: 1.5rem;
+}
 .nuxt-link-exact-active {
-  color: #41bb83 !important;
+  color: $primary !important;
 }
 .page-enter-active,
 .page-leave-active {
@@ -27,4 +38,4 @@ export default {
 .page-leave-to {
   opacity: 0;
 }
-</style>
+</style> 
